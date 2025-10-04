@@ -11,16 +11,16 @@ int main(){
         vc.push_back(s);
     }
     for(int i=0;i<n;i++){
-        if(vc[i]=="++x"){
+        if(vc[i]=="++X"){
             ++x;
         }
-        else if(vc[i]=="x++"){
+        else if(vc[i]=="X++"){
             x++;
         }
-        else if(vc[i]=="--x"){
+        else if(vc[i]=="--X"){
             --x;
         }
-        else if(vc[i]=="x--"){
+        else if(vc[i]=="X--"){
             x--;
         }
     }
